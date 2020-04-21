@@ -29,7 +29,7 @@ var app = {
     GetBooksData: function(BookSearch) {
 
         var booksAPI = "https://api.nytimes.com/svc/books/v3/reviews.json?title=" + BookSearch + "&api-key=" 
-        var APIKey= "xWQaJb76GoQU3OF98Cjc8xQtEvc6e2kh"
+        var APIKey= "YOUR API KEY"
         var BooksUrl = booksAPI + APIKey;
         console.log(BooksUrl);
 
